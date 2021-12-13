@@ -1,36 +1,40 @@
 <template>
-  <header>
-      <div class="container">
-          <img src="../assets/img/logo.png" alt="">
-        <nav>
-            <ul>
-                <li v-for="link, i in links" :key="i">{{links.text}}</li>
-            </ul>
-        <i class="fas fa-phone"></i>
-      </nav>
-      </div> 
-  </header>
+    <header>
+        <div class="jumbo">
+            <section>
+                <h4>Certified fitness professional</h4>
+
+            </section>
+        </div>
+    </header>
 </template>
 
 <script>
 
 export default {
   name: 'myHeader',
-  props: {
-   links: Array,
-  },
+ 
 }
 </script>
 
 <style lang="scss">
-header{
-    height: 80px;
-    background: black;
-    color: grey;
-    .container {
-        width: 80%;
-        margin: 0 auto;
+header {
+    .jumbo {
+        background-image: url("../assets/img/slider82x-scaled.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
+        section {
+            width: 80%;
+            margin: 0 auto;
+        }
+        h4{
+            
+        };
     }
 }
+
+
+
 
 </style>

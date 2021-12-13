@@ -1,15 +1,18 @@
 <template>
   <div id="app">
-    <myHeader :links="links"/>
+    <myNav :links="links"/>
+    <myHeader/>
   </div>
 </template>
 
 <script>
+import myNav from './components/myNav.vue'
 import myHeader from './components/myHeader.vue'
 
 export default {
   name: 'App',
   components: {
+    myNav,
     myHeader
   },
   links: [
