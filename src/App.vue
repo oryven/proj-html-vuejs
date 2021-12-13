@@ -15,32 +15,38 @@ export default {
     myNav,
     myHeader
   },
-  links: [
-      {
-        text: "Home",
-        url: "*",
-      },
-      {
-        text: "Services",
-        url: "*",      
-      },
-      {
-        text: "About",
-        url: "*",     
-      },
-      {
-        text: "Videos",
-        url: "*",        
-      },
-      {
-        text: "Blog",
-        url: "*",    
-      },
-      {
-        text: "Store",
-        url: "*",    
-      }
-   ]
+
+  data(){
+    return {
+      links: [
+          {
+            text: "Home",
+            url: "*",
+          },
+          {
+            text: "Services",
+            url: "*",      
+          },
+          {
+            text: "About",
+            url: "*",     
+          },
+          {
+            text: "Videos",
+            url: "*",        
+          },
+          {
+            text: "Blog",
+            url: "*",    
+          },
+          {
+            text: "Store",
+            url: "*", 
+            badge: "new"
+          }
+        ]
+    }
+  }
 }
  
 </script>
