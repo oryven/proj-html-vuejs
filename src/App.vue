@@ -2,18 +2,21 @@
   <div id="app">
     <myNav :links="links"/>
     <myHeader/>
+    <slogan/>
   </div>
 </template>
 
 <script>
 import myNav from './components/myNav.vue'
 import myHeader from './components/myHeader.vue'
+import slogan from './components/slogan.vue'
 
 export default {
   name: 'App',
   components: {
     myNav,
-    myHeader
+    myHeader,
+    slogan
   },
 
   data(){
