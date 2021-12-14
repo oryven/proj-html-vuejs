@@ -4,7 +4,7 @@
             <section>
                 <div class="title">
                     <h4>Certified fitness professional</h4>
-                    <h1>teke control of your health</h1>
+                    <h1>Take control of your health</h1>
                     <div class="rule"></div>
                     <p>Curabitur non molla sit amet nisl tempus convallis quis ac lectus dolor sit amet</p>
                     <button>Visit my youtube channel</button>

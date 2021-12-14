@@ -3,7 +3,7 @@
     <section class="container-playLists">
       <div class="text-playLists">
         <div>Featured Playlists</div>
-        <div>View all videos</div>
+        <div>View all videos <i class="fas fa-chevron-right"></i></div>
       </div>
       
       <div class="row">
