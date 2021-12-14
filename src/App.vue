@@ -3,6 +3,7 @@
     <myNav :links="links"/>
     <myHeader/>
     <slogan/>
+    <channel/>
     <playLists :playLists="playLists"/>
   </div>
 </template>
@@ -11,7 +12,9 @@
 import myNav from './components/myNav.vue'
 import myHeader from './components/myHeader.vue'
 import slogan from './components/slogan.vue'
+import channel from './components/channel.vue'
 import playLists from './components/playLists.vue'
+
 
 export default {
   name: 'App',
@@ -19,7 +22,8 @@ export default {
     myNav,
     myHeader,
     slogan,
-    playLists
+    playLists,
+    channel
   },
 
   data(){
