@@ -1,8 +1,11 @@
 <template>
     <section class="playLists">
-      <img :src="require(`../assets/img/${playLists.image}`)" :alt="playLists.title">
-      <h5 >{{playLists.title}}</h5>
-      <div >{{playLists.text}}</div>
+      <div v-for="element, i in playLists" :key="i">
+        <img :src="require(`../assets/img/${element.image}`)" :alt="element.title">
+        <h5>{{element.title}}</h5>
+        <div >{{element.text}}</div>
+      </div>
+      
     </section>
 </template>
 

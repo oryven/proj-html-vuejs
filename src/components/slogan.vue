@@ -1,28 +1,30 @@
 <template>
   <section class="slogan">
     <div class="container-services">
-      <div class="services1">
-        <!-- <img src="../assets/img/service6-2x.jpg" alt=""> -->
+      <div id="img1" class="services">
         <div class="container-text">
           <h5>crossfit workout</h5>
           <div>push your limits</div>
         </div>
       </div>
-      <div class="services2">
-        <!-- <img src="../assets/img/box1-2x.jpg" alt=""> -->
+      <div id="img2" class="services">
         <div class="container-text">
           <h5>crossfit workout</h5>
           <div>push your limits</div>
         </div>
       </div>
-      <div class="services3">
-        <!-- <img src="../assets/img/box3-2x.jpg" alt=""> -->
+      <div id="img3" class="services">
         <div class="container-text">
           <h5>crossfit workout</h5>
           <div>push your limits</div>
         </div>
       </div>
+      
     </div>
+    <div class="text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic dolor recusandae sunt neque! Repudiandae alias laudantium eius exercitationem molestias necessitatibus, aspernatur harum saepe nam at. Earum sapiente aliquid itaque autem?</p>
+
+      </div>
   </section>
 </template>
 
@@ -44,32 +46,33 @@ export default {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    .services1 {
-      background-image: url("../assets/img/service6-2x.jpg");
-      background-size: cover;
-      background-repeat: no-repeat;
-      width: 300px;
-      margin-top: -50px;
+    #img1 {
+    background-image: url("../assets/img/service6-2x.jpg");
     }
-    .services2 {
-      background-image: url("../assets/img/box1-2x.jpg");
-      background-size: cover;
-      background-repeat: no-repeat;
-      filter: grayscale(1);
-      width: 300px;
-      margin-top: -50px;
+    #img2 {
+background-image: url("../assets/img/box1-2x.jpg");
     }
-    .services3 {
-      background-image: url("../assets/img/box3-2x.jpg");
+    #img3 {
+background-image: url("../assets/img/box3-2x.jpg");
+    }
+    .services {
       background-size: cover;
       background-repeat: no-repeat;
       width: 300px;
       height: 300px;
       margin-top: -50px;
+      filter: brightness(80%);
+      border-radius: 0 0 10% 0;
     }
     .container-text {
-      padding-top: 100px;
+      padding: 200px 0 0 20px;
     }
+  }
+  .text {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    color: width;
   }
  
 }
