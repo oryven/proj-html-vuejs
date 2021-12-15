@@ -10,7 +10,7 @@
         <div class="item" v-for="element, i in playLists" :key="i">
           <img :src="require(`../assets/img/${element.image}`)" :alt="element.title">
           <h5>{{element.title}}</h5>
-          <div >{{element.text}}</div>
+          <div>{{element.text}}</div>
         </div>
       </div>
      
