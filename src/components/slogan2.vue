@@ -30,7 +30,7 @@ export default {
         justify-content: center;
         height: 100%;
         background: rgb(0,0,0);
-background: linear-gradient(0deg, rgba(0,0,0,0.21612394957983194) 20%, rgba(0,0,0,0) 100%);
+background: linear-gradient(0deg, rgba(0,0,0,0.5438550420168067) 60%, rgba(0,0,0,0) 100%);
         div {
             text-align: center;
             color: white;
