@@ -37,8 +37,6 @@ export default {
 <style scoped lang="scss">
 .services {
   background: black;
-  height: 400px;
-  
   color: white;
   .container-services {
     display: flex;

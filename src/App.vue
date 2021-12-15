@@ -7,6 +7,7 @@
     <playLists :playLists="playLists"/>
     <mailingList/>
     <services/>
+    <myArticle :articles="articles"/>
     <myFooter :linksFooter="linksFooter"/>
   </div>
 </template>
@@ -19,6 +20,7 @@ import channel from './components/channel.vue'
 import playLists from './components/playLists.vue'
 import mailingList from './components/mailingList.vue'
 import services from './components/services.vue'
+import myArticle from './components/myArticle.vue'
 import myFooter from './components/myFooter.vue'
 
 
@@ -32,6 +34,7 @@ export default {
     channel,
     mailingList,
     services,
+    myArticle,
     myFooter
   },
 
@@ -65,7 +68,7 @@ export default {
           }
         ],
 
-      playLists : [
+      playLists: [
         {
           image: "video2-2x.jpg",
           title: "Thighs & glute workout",
@@ -78,6 +81,24 @@ export default {
         },
         {
           image: "video9-2x.jpg",
+          title: "Slim & trim your waist",
+          text: "Shed those extra pounds"
+        }
+      ],
+
+      articles: [
+        {
+          image: "blog4-2x-400x258.jpg",
+          title: "Thighs & glute workout",
+          text: "increase your mobility."
+        },
+        {
+          image: "blog1-2x-400x258.jpg",
+          title: "lift, firm & perk out",
+          text: "Feel youg again."
+        },
+        {
+          image: "blog3-2x.jpg",
           title: "Slim & trim your waist",
           text: "Shed those extra pounds"
         }
