@@ -54,7 +54,9 @@ export default {
       background: white;
       color:grey;
       width: 30%;
-      padding: 5px;
+      display: flex;
+      align-items: center;
+      padding-left: 10px ;
     }
     input {
       width: 100%;
