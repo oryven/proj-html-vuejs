@@ -38,9 +38,13 @@ header {
         align-items: center;
         section {
             display: flex;
+            align-items: center;
             color: white;
             width: 80%;
             margin: 0 auto;
+            height: 100%;
+            background: rgb(0,0,0);
+            background: linear-gradient(90deg, rgba(0,0,0,1) 47%, rgba(0,0,0,0) 59%);
                 .title {
                 width: 50%;
             }

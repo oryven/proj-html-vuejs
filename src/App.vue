@@ -5,6 +5,7 @@
     <slogan/>
     <channel/>
     <playLists :playLists="playLists"/>
+    <mailingList/>
     <myFooter :linksFooter="linksFooter"/>
   </div>
 </template>
@@ -15,6 +16,7 @@ import myHeader from './components/myHeader.vue'
 import slogan from './components/slogan.vue'
 import channel from './components/channel.vue'
 import playLists from './components/playLists.vue'
+import mailingList from './components/mailingList.vue'
 import myFooter from './components/myFooter.vue'
 
 
@@ -26,6 +28,7 @@ export default {
     slogan,
     playLists,
     channel,
+    mailingList,
     myFooter
   },
 
