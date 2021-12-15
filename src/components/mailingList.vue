@@ -29,7 +29,7 @@ export default {
   background-image: url("../assets/img/banner1-2x.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 600px;
+  height: 500px;
   .container-mail {
     display: flex;
     flex-direction: column;

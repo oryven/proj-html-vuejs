@@ -8,6 +8,7 @@
     <mailingList/>
     <services/>
     <myArticle :articles="articles"/>
+    <slogan2/>
     <myFooter :linksFooter="linksFooter"/>
   </div>
 </template>
@@ -21,6 +22,7 @@ import playLists from './components/playLists.vue'
 import mailingList from './components/mailingList.vue'
 import services from './components/services.vue'
 import myArticle from './components/myArticle.vue'
+import slogan2 from './components/slogan2.vue'
 import myFooter from './components/myFooter.vue'
 
 
@@ -35,6 +37,7 @@ export default {
     mailingList,
     services,
     myArticle,
+    slogan2,
     myFooter
   },
 
