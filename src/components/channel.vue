@@ -9,14 +9,12 @@
         <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime aliquid rerum culpa voluptates error.</div>
         <button><i class="fab fa-youtube"></i> Visit my youtube channel</button>
     </div>
-   
   </div>
 </template>
 
 <script>
 export default {
   name: 'channel',
-
 }
 </script>
 
