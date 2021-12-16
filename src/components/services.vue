@@ -50,10 +50,23 @@ export default {
     border: 2px solid rgba(18, 18, 170, 0.918);
     border-radius: 5px;
     text-align: center;
-    padding: 40px
+    padding: 40px;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+    h4 {
+      color: yellow;
+    }
+    p {
+      color: gray;
+      font-size: 14px;
+      margin: 20px 0;
+    }
   }
   .logo {
       font-size: 40px;
+      margin-bottom: 20px;
     }
 }
 

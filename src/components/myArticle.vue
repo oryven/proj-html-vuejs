@@ -1,8 +1,8 @@
 <template>
   <section class="container-playLists">
       <div class="text-playLists">
-        <div>Featured Playlists</div>
-        <div>View all videos <i class="fas fa-chevron-right"></i></div>
+        <div>Latest articles</div>
+        <a href="">Read all articles <i class="fas fa-chevron-right"></i></a>
       </div>
       
       <div class="row">

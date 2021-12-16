@@ -6,8 +6,8 @@
       <div class="rule"></div>
       <div class="subscrive">
         <form class="input-mail">
-          <label for="email">Insert yor email ...*</label>
-          <!-- <input type="email" id="email" name="email" placeholder="Insert yor email ...*" required> -->
+          <!-- <label for="email">Insert yor email ...*</label> -->
+          <input type="email" id="email" name="email" placeholder="Insert yor email ...*" required>
         </form>
         <span><button>Subscrive</button></span>
       </div>
@@ -40,13 +40,40 @@ export default {
     background: linear-gradient(90deg, rgba(6,6,7,1) 47%, rgba(0,0,0,0) 59%);
     margin: 0 auto;
     color: white;
+    p {
+      color:gray;
+      font-size: 14px;
+    }
+    h4 {
+      color:rgb(226, 43, 83);
+      margin-bottom: 20px;
+    }
     .subscrive {
       margin: 20px 0 ;
       display: flex;
+      align-items: center;
+      button {
+      background-color: #3230a1; /* Green */
+      border: none;
+      border-radius: 20px;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 12px;
+      cursor: pointer;
+      width: 150px;
+      margin-left: 20px;
+      }
+      button:hover {
+      background: crimson;
+      }
     }
     .rule {
       width: 40px;
       border: 2px solid yellow;
+      margin: 20px 0;
     }
     .input-mail{
       height: 30px;
@@ -59,7 +86,7 @@ export default {
       padding-left: 10px ;
     }
     input {
-      width: 100%;
+      width: 90%;
       outline: none;
     }
   }

@@ -9,6 +9,8 @@
     <services/>
     <myArticle :articles="articles"/>
     <slogan2/>
+    <partners/>
+    <myVideo/>
     <myFooter :linksFooter="linksFooter"/>
   </div>
 </template>
@@ -23,8 +25,9 @@ import mailingList from './components/mailingList.vue'
 import services from './components/services.vue'
 import myArticle from './components/myArticle.vue'
 import slogan2 from './components/slogan2.vue'
+import partners from './components/partners.vue'
+import myVideo from './components/myVideo.vue'
 import myFooter from './components/myFooter.vue'
-
 
 export default {
   name: 'App',
@@ -38,6 +41,8 @@ export default {
     services,
     myArticle,
     slogan2,
+    partners,
+    myVideo,
     myFooter
   },
 
@@ -92,18 +97,18 @@ export default {
       articles: [
         {
           image: "blog4-2x-400x258.jpg",
-          title: "Thighs & glute workout",
-          text: "increase your mobility."
+          title: "The best protein shake",
+          text: "By admin | Novembre 15 2021.."
         },
         {
           image: "blog1-2x-400x258.jpg",
-          title: "lift, firm & perk out",
-          text: "Feel youg again."
+          title: "Ultimate cardio workout",
+          text: "By admin | Novembre 15 2021."
         },
         {
           image: "blog3-2x.jpg",
-          title: "Slim & trim your waist",
-          text: "Shed those extra pounds"
+          title: "New juice available now",
+          text: "By admin | Novembre 15 2021."
         }
       ],
 
